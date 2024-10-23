@@ -19,7 +19,6 @@ cin >> size;
 
 // user = size;
 
-
 int a[100];
 int dysize = sizeof(a) / sizeof(a[0]);
 
@@ -60,6 +59,11 @@ for (int i = 0; i < size; i++){
              
                   a[innum] = invalue;
                   size++;
+                  
+            // view 
+            for(int i = 0; i < size; i++){
+                 cout << a[i] << endl;
+             }
              
              break;
              
@@ -74,6 +78,11 @@ for (int i = 0; i < size; i++){
              
              a[upnum] = upvalue;
              
+            // view 
+            for(int i = 0; i < size; i++){
+                 cout << a[i] << endl;
+             }
+             
              break;
              
              case 3:
@@ -83,6 +92,7 @@ for (int i = 0; i < size; i++){
              for(int i = 0; i < size; i++){
                  cout << a[i] << endl;
              }
+             
              
              break;
              
@@ -99,6 +109,11 @@ for (int i = 0; i < size; i++){
                 
              }
              size--;
+             
+            // view 
+            for(int i = 0; i < size; i++){
+                 cout << a[i] << endl;
+             }
             
               break;
          }
