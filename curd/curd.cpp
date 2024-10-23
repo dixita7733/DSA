@@ -1,4 +1,3 @@
-// https://www.geeksforgeeks.org/cpp-programming-examples/?ref=shm
 #include <iostream>
 using namespace std;
 
