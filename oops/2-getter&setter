@@ -1,0 +1,31 @@
+#include <iostream>
+#include<string>
+#include<cstring>
+using namespace std;
+
+class student{
+public:   
+    char name[100];
+    int age;
+    char address[200];
+    
+    void setter(char name[], int age, char address[]){
+        strcpy(this->name , name);
+        this->age = age;
+        strcpy(this->address , address);
+    }
+    
+    void getter(){
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+        cout << "Address: " << address << endl;
+    }
+};
+
+
+
+int main(){
+    student std1;
+     std1.setter("dishu" , 20 , "rajkot");
+     std1.getter();
+}

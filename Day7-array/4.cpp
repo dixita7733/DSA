@@ -1,4 +1,3 @@
-// www.geeksforgeeks.org/cpp-sizeof-operator/
 //sizeof
 
 #include <iostream>

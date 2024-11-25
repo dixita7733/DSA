@@ -12,7 +12,7 @@ int main(){
     //   cout << a[i];
        sum += a[i];
     }
-    
+
     sum = sum / 5; 
     cout << "Average:" << sum;
     

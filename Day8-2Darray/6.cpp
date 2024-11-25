@@ -18,6 +18,7 @@ int main(){
     cout << "Enter the size of array col: ";
     cin >> col;
     
+    
      int box[row][col];
      
      for(int n = 0; n < row; n++){

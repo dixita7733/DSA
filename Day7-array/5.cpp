@@ -1,38 +1,33 @@
 //leap year or not
-#include <iostream>
-
+#include<iostream>
 using namespace std;
 
-int main() {
-    int startyear;
-    int endyear;
+int main(){
+    int size, startyear, endyear;
+    
+    size = 10;
 
-    cout << "Enter the startyear: ";
+     int box[size];
+    
+    cout << "Enter the start year: ";
     cin >> startyear;
-
-    cout << "Enter the endyear: ";
+    
+    cout << "Enter the endyear";
     cin >> endyear;
-
-    int size = endyear - startyear + 1; 
-    int count = startyear;  
-    int counta[size];
-
-   
-    for (int i = 0; i < size; i++) {
-        
-      //  cout << count << " "; 
+    
+    
+    
+    for(int i = startyear; i <= endyear; i++){
+        cout << "year :" << i << endl;
        
-        if(count % 4 == 0){
-            cout << "Leap year: " << count << endl;
+        
+        if(i % 4 == 0){
+            cout << "Leap year is:" << i << endl;
         }
         else{
-            cout << "Not Leap year: " << count  << endl;
+            cout << "Not leap year:" << i << endl;
         }
-         count++; 
-        
     }
-
-    return 0;
 }
 
 

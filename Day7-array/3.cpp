@@ -1,3 +1,4 @@
+// sum of two array
 #include <iostream>
 using namespace std;
 
